@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+
+#todo-table {
+    margin: auto;
+    background-color: rgb(241, 235, 235);
+    box-shadow: 2px 2px 2px 2px rgb(223, 205, 205);
+    width: 70%;
+
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+form {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#todo {
+    width: 70%;
+    height: 50px;
+    outline: none;
+    font-size: larger;
+    border: none;
+
+}
+
+#btn {
+    width: 20%;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: silver;
+    box-shadow: 2px 2px grey;
+
+}
+
+#btn:hover {
+    cursor: pointer;
+}
+
+#btn:active {
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 50px;
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+li:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+}
